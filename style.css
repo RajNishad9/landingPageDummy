@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 50px;
+  background-color: rgb(112, 181, 241);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header > a {
+  text-decoration: none;
+  margin: 0px 20px;
+  color: black;
+}
+
+header > a:hover {
+  color: white;
+}
+
+section {
+  height: 500px;
+  background-color: aquamarine;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section > h1 {
+  font-size: 40px;
+}
+
+section > img {
+  width: 500px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: gray;
+  width: 80%;
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer > a {
+  text-decoration: none;
+  margin: 0px 20px;
+  color: white;
+}
+
+footer > a:hover {
+  color: black;
+}
